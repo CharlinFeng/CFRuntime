@@ -1,10 +1,13 @@
+
+###成都冯成林出品(Swfit狂热分子)
+
 ![image](./CFRuntime/show.png)<br />
 
 
 CFRuntime  1.0 （永久持续更新中！）
 ==========
 <br/><br/>
-####成都冯成林：只要你会用MJExtension，你会马上上手CFRuntime！
+####只要你会用MJExtension，你会马上上手CFRuntime！
 <br/>
 
     运行时、反射与一键字典模型互转
