@@ -59,12 +59,20 @@ MJExtension(OC): https://github.com/CoderMJLee/MJExtension
 而且本身Swift已经不主张Runtime运行时机制，在Swift中是叫Reflect反射，基本可以认为Runtime已经不好用了。
 
 <br/><br/>
-4.框架为什么要加CFRuntime？
+4.框架为什么要加CFRuntime？<br/>
 >.CF是Charlin Feng的缩写，Runtime主要是我非常这个OC这个特性，就算Swift叫Reflect，但我个人仍想延续经典。
 
 
 <br/><br/>
-5.框架是如何写出来的？<br/>
+5.是否支持Swfit中的结构体？<br/>
+不支持，基于以下两点原因：<br/>
+(1)结构体主要用于数据结构，是值类型，大型数据使用引用类型的类更好。<br/>
+(2)从继承的角度来说，继承自NSObject，就已经说明问题。<br/>
+
+
+
+<br/><br/>
+6.框架是如何写出来的？<br/>
 >.这个问题比较综合了，因为我公司正式项目已经全部Swift化，但个人对MJExtension依赖太深，同时写了大量延伸框架
 ，对这套框架需求迫切！最近也在研究Reflect，在参考了国外大量资料和别人的作品，综合MJExtension的理念，
 从昨天晚上（2015.07.10 19点）开始连续工作10多个小时写出了这套框架，力求API与MJExtension保持高度一致，
