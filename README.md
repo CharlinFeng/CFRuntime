@@ -3,13 +3,14 @@
 
 CFRuntime  1.0 （永久持续更新中！）
 ==========
-####只要你会用MJExtension，你会马上上手CFRuntime！
-
+<br/><br/>
+####成都冯成林：只要你会用MJExtension，你会马上上手CFRuntime！
+<br/>
 
     运行时、反射与一键字典模型互转
 
 <br /><br />
-组织信息 Charlin Feng：（请支持西部大开发）
+组织信息  （请支持西部大开发）
 ===============
 <br />
 #### 特别群：请西部省市朋友实名加入组织。其他地区朋友请添加2-4群：谢谢。
@@ -82,7 +83,8 @@ MJExtension(OC): https://github.com/CoderMJLee/MJExtension
 不过可惜继承自NSObject，使用OC的KVC之后，会有大量崩溃，因为KVC无法理解一些基本数值型类型可选。<br/>
 关于这点我在StackOverflow上提了问题，并得到了国外大牛的回答，请看：<br/>
 
-原文地址：http://stackoverflow.com/questions/31353098/swift-optional-property-using-kvc-causes-crash <br/>
+原文地址：<br/>
+http://stackoverflow.com/questions/31353098/swift-optional-property-using-kvc-causes-crash <br/>
 
     You have already solved the problem perfectly. You cannot use KVC on an Optional Int property, because KVC is Cocoa / Objective-C, and Objective-C cannot see an Optional Int - it is not bridged to Objective-C. Objective-C can only see types that are bridged to Objective-C:
     class types that are derived from NSObject
@@ -320,7 +322,7 @@ MJExtension(OC): https://github.com/CoderMJLee/MJExtension
 请回到顶部投入组织的怀抱。如果您是西部地区，欢迎实名加入西部大开发！
 <br/><br/><br/>
 
-结束语 End
+结束语 END
 ===============
 MJExtension基本功能已经完成，其实您会发现还有很多细节功能没有完成：<br/>
 1.数组级联<br/>
