@@ -1,7 +1,10 @@
 
-###成都冯成林出品 
-#### ---Swfit狂热分子，MJExtension严重依赖症患者
-<br />
+##成都冯成林出品 
+#### Swfit狂热分子，MJExtension严重依赖症患者
+#### 感谢MJExtension，感谢国外Mirror！
+
+
+<br /><br />
 ![image](./CFRuntime/show.png)<br />
 
 
