@@ -12,6 +12,7 @@
 		894E48661B5103360097E0D8 /* Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E48651B5103360097E0D8 /* Mirror.swift */; };
 		894E48681B51035D0097E0D8 /* MirrorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E48671B51035D0097E0D8 /* MirrorItem.swift */; };
 		894E486A1B5103B70097E0D8 /* Mirror+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E48691B5103B70097E0D8 /* Mirror+Extend.swift */; };
+		894E486C1B510AA50097E0D8 /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 894E486B1B510AA50097E0D8 /* show.png */; };
 		89524A8D1B4FE966004A27BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89524A8C1B4FE966004A27BB /* AppDelegate.swift */; };
 		89524A8F1B4FE966004A27BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89524A8E1B4FE966004A27BB /* ViewController.swift */; };
 		89524A921B4FE966004A27BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89524A901B4FE966004A27BB /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		894E48651B5103360097E0D8 /* Mirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mirror.swift; sourceTree = "<group>"; };
 		894E48671B51035D0097E0D8 /* MirrorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirrorItem.swift; sourceTree = "<group>"; };
 		894E48691B5103B70097E0D8 /* Mirror+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extend.swift"; sourceTree = "<group>"; };
+		894E486B1B510AA50097E0D8 /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
 		89524A871B4FE966004A27BB /* CFRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89524A8B1B4FE966004A27BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89524A8C1B4FE966004A27BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		89524A8A1B4FE966004A27BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				894E486B1B510AA50097E0D8 /* show.png */,
 				89524A8B1B4FE966004A27BB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894E486C1B510AA50097E0D8 /* show.png in Resources */,
 				89524A921B4FE966004A27BB /* Main.storyboard in Resources */,
 				89524A971B4FE966004A27BB /* LaunchScreen.xib in Resources */,
 				89524A941B4FE966004A27BB /* Images.xcassets in Resources */,
