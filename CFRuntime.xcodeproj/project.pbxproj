@@ -25,6 +25,7 @@
 		89524AF11B4FF334004A27BB /* CFRuntimeCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89524AF01B4FF334004A27BB /* CFRuntimeCommon.swift */; };
 		89524AF31B500598004A27BB /* CFPropertyTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89524AF21B500598004A27BB /* CFPropertyTypeEnum.swift */; };
 		89524AF51B500B79004A27BB /* NSObject+KeyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89524AF41B500B79004A27BB /* NSObject+KeyValues.swift */; };
+		89E90C211B5343C300434774 /* show2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E90C201B5343C300434774 /* show2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		89524AF01B4FF334004A27BB /* CFRuntimeCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFRuntimeCommon.swift; sourceTree = "<group>"; };
 		89524AF21B500598004A27BB /* CFPropertyTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFPropertyTypeEnum.swift; sourceTree = "<group>"; };
 		89524AF41B500B79004A27BB /* NSObject+KeyValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KeyValues.swift"; sourceTree = "<group>"; };
+		89E90C201B5343C300434774 /* show2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = show2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		89524A8A1B4FE966004A27BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89E90C201B5343C300434774 /* show2.jpg */,
 				894E486B1B510AA50097E0D8 /* show.png */,
 				89524A8B1B4FE966004A27BB /* Info.plist */,
 			);
@@ -280,6 +283,7 @@
 				89524A921B4FE966004A27BB /* Main.storyboard in Resources */,
 				89524A971B4FE966004A27BB /* LaunchScreen.xib in Resources */,
 				89524A941B4FE966004A27BB /* Images.xcassets in Resources */,
+				89E90C211B5343C300434774 /* show2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
