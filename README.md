@@ -1,6 +1,5 @@
 
-##成都冯成林出品 
-#### Swfit狂热分子，MJExtension严重依赖症患者
+##成都冯成林出品 Swfit狂热分子
 #### 感谢MJExtension，感谢国外Mirror，感谢stackoverflow的matt大神！
 
 
@@ -59,7 +58,7 @@ MJExtension(OC): https://github.com/CoderMJLee/MJExtension
 而且本身Swift已经不主张Runtime运行时机制，在Swift中是叫Reflect反射，基本可以认为Runtime已经不好用了。
 
 <br/><br/>
-4.框架为什么要加CFRuntime？<br/>
+4.框架为什么要命名为CFRuntime？<br/>
 >.CF是Charlin Feng的缩写，Runtime主要是我非常这个OC这个特性，就算Swift叫Reflect，但我个人仍想延续经典。
 
 
@@ -75,7 +74,7 @@ MJExtension(OC): https://github.com/CoderMJLee/MJExtension
 6.框架是如何写出来的？<br/>
 >.这个问题比较综合了，因为我公司正式项目已经全部Swift化，但个人对MJExtension依赖太深，同时写了大量延伸框架
 ，对这套框架需求迫切！最近也在研究Reflect，在参考了国外大量资料和别人的作品，综合MJExtension的理念，
-从昨天晚上（2015.07.10 19点）开始连续工作10多个小时写出了这套框架，力求API与MJExtension保持高度一致，
+从昨天晚上（2015.07.10 19点）开始连续工作20多个小时写出了这套框架，力求API与MJExtension保持高度一致，
 只要你会用MJExtension，你会马上上手CFRuntime！
 
 <br/><br/><br/>
@@ -110,10 +109,10 @@ http://stackoverflow.com/questions/31353098/swift-optional-property-using-kvc-ca
 大概意思是，Swift中的框架类型，如果要用到KVC，不要使用Int?、Float? 、Double? 这样的类型。如果一定要用，<br/>
 请使用NSNumer?当前这样，你的数据类型就模糊化了。不能看到真正的类型。<br/>
 <br/><br/>
-所以结果是这样，暂先这样，后期我会更新：<br/>
+所以结果是暂先这样，后期我会更新：<br/>
 
 1.如果是String 或者NSString ：请定义为可选，且只有字符串可选。（因为json中String类型最多，不赋初始值省事）<br/>
-2.Int、CGFloat、Float、Double、Bool、自定义对象 一定不能定义为可选，并全部初始化为0<br/>
+2.Int、CGFloat、Float、Double、Bool、自定义对象 一定不能定义为可选，并全部初始化<br/>
 
 <br/><br/><br/>
 
@@ -326,7 +325,7 @@ http://stackoverflow.com/questions/31353098/swift-optional-property-using-kvc-ca
     [age2: 28, age: 28, money: 1800000.0, name: Optional(张三), weight: 120.0, isLikeStudy: 1, cat: [price: 4000.0, name: Optional("多多")], weight2: 120.0]
 
 <br/>
-你可能会想，模型转字典，能自动级联吗，这个问题其实上面已经告诉你答案了。
+你可能会想，模型转字典，能自动级联吗，这个问题其实上面已经告诉你答案了（已经实现级联）。
 很简单，很熟悉是吧！！！
 <br/><br/><br/>
 
@@ -342,6 +341,7 @@ http://stackoverflow.com/questions/31353098/swift-optional-property-using-kvc-ca
 MJExtension基本功能已经完成，其实您会发现还有很多细节功能没有完成：<br/>
 1.数组级联<br/>
 2.属性初始化要求较多，比较麻烦。<br/>
-相信我，一切会越来越完善的！！！<br/>
+3.模型转字典时，字符串有Option字样等。<br/>
+敬请期待2.0版本！！！ 相信我，一切会越来越完善的！！！<br/>
 
 
