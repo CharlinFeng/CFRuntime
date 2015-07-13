@@ -64,7 +64,7 @@ MJExtension(OC): https://github.com/CoderMJLee/MJExtension
 
 <br/><br/>
 4.框架为什么要命名为CFRuntime？<br/>
->.CF是Charlin Feng的缩写，Runtime主要是我非常这个OC这个特性，就算Swift叫Reflect，但我个人仍想延续经典。
+>.CF是Charlin Feng的缩写,我知道Swift有全名空间不需要前缀，但由于OC历史原因，暂时还没改过来这个习惯哈，Runtime主要是我非常这个OC这个特性，就算Swift叫Reflect，但我个人仍想延续经典。
 
 
 <br/><br/>
